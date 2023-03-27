@@ -296,6 +296,11 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 1;
   margin-bottom: 0;
 }
+/* this below code snippet is inserted to remove the sliding feature of the title image */
+#fh5co-hero .flexslider  {
+  /* opacity: 1 !important; */
+  transition: none !important;
+}
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
