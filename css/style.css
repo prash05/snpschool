@@ -304,6 +304,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
+  /* this below code snippet is inserted to remove the sliding feature of the title image */
+  transition: none !important;
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
