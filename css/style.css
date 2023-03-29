@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   overflow: hidden;
   /* this below code snippet is inserted to remove the sliding feature of the title image */
-  transition: none !important;
+  /* transition: none !important; */
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
@@ -325,7 +325,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
-#fh5co-hero .flexslider .flex-control-nav {
+/* below line from 331 to 345 are changed to remove the navigation in the slide view  */
+
+
+/* #fh5co-hero .flexslider .flex-control-nav {
   bottom: 40px;
   z-index: 1000;
 }
@@ -339,7 +342,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
-}
+} */
 #fh5co-hero .flexslider .flex-direction-nav {
   display: none;
 }
